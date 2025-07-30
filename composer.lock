@@ -21,7 +21,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=8.4.8"
             },
             "type": "library",
             "extra": {
@@ -71,7 +71,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=8.4.8"
             },
             "type": "library",
             "extra": {
@@ -121,7 +121,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
+                "php": ">=8.4.8",
                 "pimple/pimple": "~1.0",
                 "symfony/event-dispatcher": "~2.3|3.0.*",
                 "symfony/http-foundation": "~2.3|3.0.*",
@@ -203,7 +203,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9|>=7.0.8",
+                "php": "^5.5.9|>=8.4.8",
                 "psr/log": "~1.0"
             },
             "conflict": {
@@ -272,7 +272,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": ">=8.4.8"
             },
             "require-dev": {
                 "psr/log": "~1.0",
@@ -335,7 +335,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9",
+                "php": ">=8.4.8",
                 "symfony/polyfill-mbstring": "~1.1"
             },
             "require-dev": {
@@ -391,7 +391,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9",
+                "php": ">=8.4.8",
                 "psr/log": "~1.0",
                 "symfony/debug": "~2.8|~3.0",
                 "symfony/event-dispatcher": "~2.8|~3.0",
@@ -556,7 +556,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": ">=8.4.8"
             },
             "provide": {
                 "ext-mbstring": "*"
@@ -637,7 +637,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": ">=8.4.8"
             },
             "conflict": {
                 "symfony/config": "<2.8"
@@ -715,7 +715,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": ">=8.4.8",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
