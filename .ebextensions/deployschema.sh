@@ -1,7 +1,7 @@
 #!/bin/sh
 set -ex
 
-/usr/bin/mysql \
+/usr/bin/mariadb105 \
     -u $RDS_USERNAME \
     -p$RDS_PASSWORD \
     -h $RDS_HOSTNAME \
