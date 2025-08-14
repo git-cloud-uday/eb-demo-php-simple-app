@@ -1,7 +1,9 @@
 #!/bin/sh
-DB_HOST="database-1.c0rgyw80mvd0.us-east-1.rds.amazonaws.com"
-DB_USER="admin"
-DB_PASS="Civils1998"
-DB_NAME="database-1"
+set -ex
 
-/usr/bin/mariadb -h "$DB_HOST" -u "$DB_USER" -p"$DB_PASS" "$DB_NAME" < .ebextensions/schema.sql
+/usr/bin/mysql \
+    -u $RDS_USERNAME \
+    -p$RDS_PASSWORD \
+    -h $RDS_HOSTNAME \
+    $RDS_DB_NAME \
+    -e 'CREATE TABLE IF NOT EXISTS urler(id INT UNSIGNED NOT NULL AUTO_INCREMENT, author VARCHAR(63) NOT NULL, message TEXT, PRIMARY KEY (id))'
