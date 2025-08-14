@@ -1,7 +1,12 @@
 {
+    "name": "myapp/elastic-beanstalk-app",
+    "description": "A sample PHP application for AWS Elastic Beanstalk",
     "require": {
-        "silex/silex": "~3.3.0",
-        "twig/twig": "^1.17.1"
+        "php": ">=7.4"
     },
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
 }
